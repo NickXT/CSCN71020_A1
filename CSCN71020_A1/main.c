@@ -4,7 +4,6 @@ void printWelcomeMenu();
 void printOptions();
 void add();
 
-
 void main() {
 
 	printWelcomeMenu();
@@ -20,6 +19,7 @@ void main() {
 	{
 	case 1:
 		add();
+
 	}
 
 }
@@ -45,5 +45,3 @@ void add() {
 	result = num1 + num2;
 	printf("%lf + %lf = %lf\n", num1, num2, result);
 }
-
-lsadhjflkjasdlfa
